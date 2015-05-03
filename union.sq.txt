@@ -1,0 +1,56 @@
+ var question = prompt("Hello! Which Line from Union Sq would you like to take? L, N or 6?");
+                       
+       if (question === "N" || "n")                 
+     var question2 = prompt( "Which station would you like to arrive at? 8th, 9th, 23rd, 28th, or Times Square?");    
+         if (question2 ==="8th") {
+      alert("That is 1 stop"); 
+  }
+      else if (question2 === "23rd") {
+      alert("That is 2 stops");
+      }
+       else if (question2 === "28th"){
+      alert("That is 3 stops");
+       }
+      else if (question2 ==="Times Square" || "times square"){
+        alert("That is 4 stops");
+      }
+ }
+
+   else if (question === "L" || "l"){
+     var question3 = prompt( "Which station would you like to arrive at? 8th, 6th, 3rd or 1st?");
+     
+     if(question3 ==="8th") {
+       alert("That is 2 stops");
+     }
+     else if (question3 === " 6th") {
+       alert("That is 1 stop");
+     }
+     else if (question3  === "3rd"){
+       alert ("That is 1 stop");
+     }
+     else if (question3 === "1st"){
+       alert('That is 2 stops');
+     }
+}
+    
+ else if (question === "6"){
+     var question4 = prompt( "Which station would you like to arrive at? Grand Central, 33rd, 28th, 23rd or Aston Place?");
+     
+     if(question4 ==="Grand Central" || "grand central") {
+       alert("That is 4 stops");
+     }
+     else if (question4 === " 33rd") {
+       alert("That is 3 stops");
+     }
+     else if (question4  === "28th"){
+       alert ("That is 2 stops");
+     }
+     else if (question4 === "23rd"){
+       alert('That is 1 stop');
+     }
+   else if (question4 === "Aston Place" || "aston place"){
+       alert('That is 1 stop');
+   
+   }
+     
+   }
